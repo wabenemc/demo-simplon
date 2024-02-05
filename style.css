@@ -1,0 +1,481 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+/* Premiere section */
+
+.banniere {
+    background: url("assets_maquette/banner_bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+
+}
+
+.entete a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border: transparent
+}
+
+.entete p {
+    font-size: 2em;
+    padding: 0 0 0 250px;
+    font-weight: bolder;
+}
+
+.entete nav {
+    padding: 0 250px 0 0;
+}
+
+.entete span {
+    color: #FFDE28;
+    font-size: 1.4em;
+}
+
+
+
+.banniere .entete {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.centre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 245px 60px 245px 0;
+    font-size: 1em;
+
+}
+
+.centre #tinker {
+    color: #FFB428;
+}
+
+.centre #html5 {
+    color: #46E7DB;
+}
+
+.centre #template {
+    color: white;
+}
+
+.centre p {
+    color: white;
+    padding: 0;
+
+}
+
+.centre a {
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-size: 0.8em;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 550;
+}
+
+
+
+
+
+/* Deuxième section */
+
+.division {
+    background: url("assets_maquette/about-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.logo img {
+    border-radius: 50px;
+    padding: 20px;
+    background-color: #FED467;
+    border: solid white 3px;
+    width: 3em;
+    height: 3em;
+}
+
+.trio {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px white;
+}
+
+.trio h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+.sous-division {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5%;
+    color: white;
+}
+
+.param {
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.sous-division .param {
+    justify-content: space-between;
+}
+
+.param a {
+
+    text-decoration: none;
+    background: rgb(30, 219, 225);
+    color: black;
+    font-size: 0.8em;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 550;
+
+}
+
+/* Troisieme partie */
+
+.generale {
+    display: flex;
+    flex-wrap: row wrap;
+    height: 100vh;
+  }
+
+  .carreBlue {
+    width: 40vw;
+    background-color: aqua;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 60vw;
+  }
+  .container1,
+  .container2,
+  .container3 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .item {
+    width: 40%;
+    box-sizing: border-box;
+  
+  
+  }
+
+  img {
+    display: block; /* Pour éviter les espaces supplémentaires autour de l'image */
+    width: 100%; /* Pour s'assurer que l'image remplit complètement le conteneur */
+  }
+  
+
+
+
+/* Quatrième partie */
+
+.jaune {
+    background-color: #efc05a;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jaune #bloc {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.richard {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.developer {
+    color: white;
+}
+
+/* Cinquième partie */
+
+.iceCream {
+    display: flex;
+    flex-direction: row;
+    background: url("assets_maquette/blog-bg.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.etoile {
+   
+    height: 600px;
+    width: 35%;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+}
+
+.uranus{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    
+    height: 600px;
+    /* width: 50%; */
+    justify-content: space-around;
+    padding-left: 150px;
+}
+
+.star{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 25px;
+}
+
+.moon{
+    color: white;
+}
+
+.partie{
+    
+
+}
+
+.partie div{
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40px;
+    margin: 40px;
+    
+}
+
+.partie p{
+  justify-content: center;
+    
+}
+
+.both{
+    margin: 30px;
+    /* width: 65%; */
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    
+}
+
+.both img{
+    width: 100%;
+}
+
+.bloc{
+    background-color: white;
+}
+
+.bloc p{
+    padding: 15px;
+}
+
+.bloc p #un{
+    color: rgb(13, 13, 13);
+    font-weight: 800;
+    
+}
+
+.bloc p #deux{
+    color: rgb(30, 219, 225);
+    
+}
+
+
+
+/* Sixième partie */
+
+.gris {
+    background-color: rgb(93, 94, 94);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+
+    color: white;
+
+    border-bottom: white solid 0.2px;
+    padding: 8px 65px;
+}
+
+.contact p {
+    font-weight: 600;
+    font-size: large;
+}
+
+.texte {
+    color: white;
+    text-align: center;
+
+}
+
+.gris a {
+    text-decoration: none;
+    background: rgb(30, 219, 225);
+    color: rgb(250, 249, 249);
+    font-size: 0.8em;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 550;
+}
+
+/* Septième partie */
+
+.map iframe {
+    width: 100%;
+}
+
+/* Dernière partie */
+
+.pied {
+    background-color: rgb(56, 54, 54);
+    width: 100%;
+    display: flex;
+}
+
+.pied .prime{
+    justify-content: flex-start;
+}
+
+.prime{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    width: 35%;
+    
+
+}
+
+.prime span {
+
+    color: #FFDE28;
+    font-size: 1.2em;
+}
+
+.prime a{
+    color: white;
+}
+.prime h3 {
+    font-size: 2em;
+    
+    font-weight: bolder;
+}
+
+.prime p{
+    color: white;
+}
+
+.second{
+    width: 20%;;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    /* background-color: brown; */
+}
+
+.plus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.fin{
+    color: white;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+}
+
+.extra{
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fin .social{
+    
+    
+}
+
+.social {
+    padding-left: 120px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social p{
+    
+}
+
+
+
